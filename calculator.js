@@ -1,25 +1,41 @@
 // Basic functions
 
+// Operate
+function operate(operator, a, b) {
+  switch (operator) {
+    case '+':
+      return add(a, b);
+
+    case '-':
+      return subtract(a, b);
+
+    case '*':
+      return multiply(a, b);
+
+    case '/':
+      return divide(a, b);
+
+    default:
+      break;
+  }
+}
+
 // Add
 function add(numbers) {
-  let result = numbers.reduce((sum, current) => sum + current, 0);
-  return result;
+  return a + b;
 }
 
 // Subtract
 function subtract(numbers) {
-  let result = numbers.reduce((remainder, current) => remainder - current);
-  return result;
+  return a - b;
 }
 
 // Multiply
 function multiply(numbers) {
-  let result = numbers.reduce((product, current) => product * current);
-  return result;
+  return a * b;
 }
 
 // Divide
 function divide(a, b) {
-  let result = a / b;
-  return result;
+  return a / b;
 }
