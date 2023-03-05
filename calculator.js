@@ -39,3 +39,4 @@ function multiply(numbers) {
 function divide(a, b) {
   return a / b;
 }
+
